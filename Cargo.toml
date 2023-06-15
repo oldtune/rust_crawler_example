@@ -1,0 +1,12 @@
+[package]
+name = "rust_crawler_example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tl = "0.7.7"
+reqwest = { version = "0.11.18", features = ["gzip"] }
+tokio = { version = "1.28.2", features = ["full"] }
+anyhow = "1.0.71"
